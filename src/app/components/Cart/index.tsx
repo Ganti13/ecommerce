@@ -27,7 +27,7 @@ export const Cart = () => {
   }, 0);
 
   return (
-    <Container show={showCart ? showCart : null}>
+    <Container show={showCart}>
       <CartHeader>
         <h1>Shopping cart</h1>
         <CloseCart onClick={handleShowCart}>x</CloseCart>
